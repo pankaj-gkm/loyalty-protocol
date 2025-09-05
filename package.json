@@ -1,0 +1,34 @@
+{
+  "name": "loyalty-protocol",
+  "version": "1.0.16",
+  "description": "",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./theme.css": "./theme.css"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup index.ts --format esm,cjs --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "private": false,
+  "dependencies": {
+    "loyalty-protocol": "^1.0.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "dist",
+    "theme/theme.css",
+    "config"
+  ]
+}
