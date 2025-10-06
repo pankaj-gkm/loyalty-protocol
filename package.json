@@ -1,6 +1,6 @@
 {
   "name": "loyalty-protocol",
-  "version": "1.0.32",
+  "version": "1.0.34",
   "description": "",
   "main": "dist/index.js",
   "exports": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup config/config.js --format esm,cjs --out-dir dist && cp theme/theme.css dist/theme.css"
+    "build": "tsup config/config.js --format esm,cjs --out-dir dist --minify && csso theme/theme.css --output dist/theme.css"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
   "type": "module",
   "private": false,
   "devDependencies": {
+    "csso-cli": "^4.0.2",
     "tsup": "^8.5.0",
     "typescript": "^5.9.2"
   },
