@@ -125,6 +125,7 @@
 
   --secondary-color: rgba(var(--secondary-color-base));
   --secondary-color-10: rgba(var(--secondary-color-base), 0.1);
+  --secondary-color-15: rgba(var(--secondary-color-base), 0.15);
   --secondary-color-20: rgba(var(--secondary-color-base), 0.2);
   --secondary-color-25: rgba(var(--secondary-color-base), 0.25);
   --secondary-color-30: rgba(var(--secondary-color-base), 0.3);
@@ -138,6 +139,7 @@
 
   --background-color: rgba(var(--background-color-base));
   --background-color-10: rgba(var(--background-color-base), 0.1);
+  --background-color-15: rgba(var(--background-color-base), 0.15);
   --background-color-20: rgba(var(--background-color-base), 0.2);
   --background-color-25: rgba(var(--background-color-base), 0.25);
   --background-color-30: rgba(var(--background-color-base), 0.3);
@@ -147,6 +149,7 @@
   --background-color-70: rgba(var(--background-color-base), 0.7);
   --background-color-75: rgba(var(--background-color-base), 0.75);
   --background-color-80: rgba(var(--background-color-base), 0.8);
+  --background-color-85: rgba(var(--background-color-base), 0.85);
   --background-color-90: rgba(var(--background-color-base), 0.9);
 
   --tertiary-color: rgba(var(--tertiary-color-base));
@@ -218,8 +221,8 @@
   --white-80: rgba(var(--white-base), 0.8);
   --white-90: rgba(var(--white-base), 0.9);
 
-  --processing-color-90: rgba(var(--processing-color-base), 0.9);
-  --partial-color-90: rgba(var(--partial-color-base), 0.9);
-  --success-color-90: rgba(var(--success-color-base), 0.9);
-  --failed-color-90: rgba(var(--failed-color-base), 0.9);
+  --processing-color: rgba(var(--processing-color-base));
+  --partial-color: rgba(var(--partial-color-base));
+  --success-color: rgba(var(--success-color-base));
+  --failed-color: rgba(var(--failed-color-base));
 }
