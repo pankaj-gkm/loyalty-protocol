@@ -135,6 +135,7 @@
   --secondary-color-70: rgba(var(--secondary-color-base), 0.7);
   --secondary-color-75: rgba(var(--secondary-color-base), 0.75);
   --secondary-color-80: rgba(var(--secondary-color-base), 0.8);
+  --secondary-color-85: rgba(var(--secondary-color-base), 0.85);
   --secondary-color-90: rgba(var(--secondary-color-base), 0.9);
 
   --background-color: rgba(var(--background-color-base));

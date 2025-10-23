@@ -1,10 +1,12 @@
 {
   "name": "loyalty-protocol",
-  "version": "1.1.12",
+  "version": "1.1.18",
   "description": "",
   "main": "dist/index.js",
   "exports": {
-    ".": "./dist"
+    ".": "./dist",
+    "./config": "./dist/index.js",
+    "./theme": "./dist/theme.css"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,12 +17,12 @@
   "license": "ISC",
   "type": "module",
   "private": false,
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "csso-cli": "^4.0.2",
     "tsup": "^8.5.0",
     "typescript": "^5.9.2"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
