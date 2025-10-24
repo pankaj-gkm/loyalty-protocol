@@ -14,5 +14,5 @@ export declare const HT_CONFIG: {
         };
     };
     showHeader: boolean;
-    tenantId: string;
+    tenantId: undefined;
 };

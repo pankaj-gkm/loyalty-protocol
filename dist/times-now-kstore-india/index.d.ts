@@ -1,4 +1,4 @@
-export declare const INDIAN_EXPRESS: {
+export declare const TIME_NOW_CONFIG: {
     currency: {
         "K-Cash": {
             name: string;
@@ -14,5 +14,5 @@ export declare const INDIAN_EXPRESS: {
         };
     };
     showHeader: boolean;
-    tenantId: undefined;
+    tenantId: string;
 };

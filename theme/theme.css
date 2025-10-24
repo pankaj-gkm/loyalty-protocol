@@ -124,6 +124,31 @@
   --navbar-web-height: 0px;
 }
 
+[data-theme="times-now-kstore-india"] {
+  --primary-color-base: 181, 32, 37; /* #B52025 */
+  --secondary-color-base: 219, 219, 219; /* #ffffff */
+  --background-color-base: 255, 255, 255; /* #1f3338 */
+  --tertiary-color-base: 220, 218, 218; /* #dcdada */
+  --text-color-base: 0, 0, 0; /* #000000 */
+  --accent-text-color-base: 72, 72, 72; /* #444444 */
+
+  --error-color-base: 255, 115, 115; /* #ff7373 */
+  --white-base: 255, 255, 255; /* #ffffff */
+  --black-base: 0, 0, 0; /* #000000 */
+  --processing-color-base: 255, 158, 44; /* #ff9e2c */
+  --partial-color-base: 255, 195, 44; /* #ffc32c */
+  --success-color-base: 38, 216, 109; /* #26d86d */
+  --failed-color-base: 255, 115, 115; /* #ff7373 */
+
+  --trim: "Verdana";
+  --trim-mono: "Verdana";
+  --trim-poster: "Verdana";
+  --trim-poster-lean: "Verdana";
+
+  --navbar-mweb-height: 0px;
+  --navbar-web-height: 0px;
+}
+
 :root {
   --primary-color: rgba(var(--primary-color-base));
   --primary-color-10: rgba(var(--primary-color-base), 0.1);

@@ -1,12 +1,12 @@
-export const INDIAN_EXPRESS = {
+export const TIME_NOW_CONFIG = {
   currency: {
     "K-Cash": {
       name: "T-Coins",
-      logo: "https://images.hindustantimes.com/sso/prod/loyalty-reward-sdk/images/goCoinHT.svg",
+      logo: "https://i.ibb.co/V0BmdGFB/coins.png",
     },
     "K-Points": {
       name: "T-Points",
-      logo: "https://s2.coinmarketcap.com/static/img/coins/128x128/1958.png",
+      logo: "https://i.ibb.co/Z1mSgmzT/points.png",
     },
     rKGeN: {
       name: "T Coin",
@@ -14,5 +14,5 @@ export const INDIAN_EXPRESS = {
     },
   },
   showHeader: false,
-  tenantId: undefined,
+  tenantId: "times",
 };
