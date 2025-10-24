@@ -14,6 +14,7 @@ type Config = {
         };
     };
     showHeader: boolean;
+    tenantId: string | undefined;
 };
 declare const LOYALTY_PROTOCOL_CONFIG: Record<string, Config>;
 export default LOYALTY_PROTOCOL_CONFIG;

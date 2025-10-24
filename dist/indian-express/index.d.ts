@@ -14,4 +14,5 @@ export declare const INDIAN_EXPRESS: {
         };
     };
     showHeader: boolean;
+    tenantId: string;
 };

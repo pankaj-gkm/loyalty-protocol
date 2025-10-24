@@ -14,4 +14,5 @@ export const HT_CONFIG = {
         },
     },
     showHeader: false,
+    tenantId: "times",
 };

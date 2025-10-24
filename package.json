@@ -1,6 +1,6 @@
 {
   "name": "loyalty-protocol",
-  "version": "1.1.18",
+  "version": "1.2.2",
   "description": "",
   "main": "dist/index.js",
   "exports": {
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup config/config.js --format esm,cjs --out-dir dist --minify && csso theme/theme.css --output dist/theme.css"
+    "build": "tsup config/config.js --format esm --out-dir dist --minify && csso theme/theme.css --output dist/theme.css && tsc --outDir dist --declaration"
   },
   "keywords": [],
   "author": "",

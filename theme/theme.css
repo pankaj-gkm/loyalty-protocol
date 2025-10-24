@@ -19,6 +19,9 @@
   --trim-mono: "Trim-Mono";
   --trim-poster: "Trim-Poster";
   --trim-poster-lean: "Trim-Poster-Lean";
+
+  --navbar-web-height: 65px;
+  --navbar-mweb-height: 98px;
 }
 
 [data-theme="dark"] {
@@ -41,6 +44,9 @@
   --trim-mono: "Trim-Mono";
   --trim-poster: "Trim-Poster";
   --trim-poster-lean: "Trim-Poster-Lean";
+
+  --navbar-web-height: 65px;
+  --navbar-mweb-height: 98px;
 }
 
 [data-theme="kgen"] {
@@ -63,12 +69,15 @@
   --trim-mono: "Trim-Mono";
   --trim-poster: "Trim-Poster";
   --trim-poster-lean: "Trim-Poster-Lean";
+
+  --navbar-web-height: 65px;
+  --navbar-mweb-height: 98px;
 }
 
 [data-theme="ht-kstore-india"] {
   --primary-color-base: 0, 157, 182; /* #009db6 */
-  --secondary-color-base: 255, 255, 255; /* #ffffff */
-  --background-color-base: 219, 219, 219; /* #1f3338 */
+  --secondary-color-base: 219, 219, 219; /* #ffffff */
+  --background-color-base: 255, 255, 255; /* #1f3338 */
   --tertiary-color-base: 220, 218, 218; /* #dcdada */
   --text-color-base: 0, 0, 0; /* #000000 */
   --accent-text-color-base: 68, 68, 68; /* #444444 */
@@ -85,6 +94,9 @@
   --trim-mono: "Trim-Mono";
   --trim-poster: "Trim-Poster";
   --trim-poster-lean: "Trim-Poster-Lean";
+
+  --navbar-mweb-height: 0px;
+  --navbar-web-height: 0px;
 }
 
 [data-theme="indian-express"] {
@@ -107,6 +119,9 @@
   --trim-mono: "Trim-Mono";
   --trim-poster: "Trim-Poster";
   --trim-poster-lean: "Trim-Poster-Lean";
+
+  --navbar-mweb-height: 0px;
+  --navbar-web-height: 0px;
 }
 
 :root {

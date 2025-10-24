@@ -17,6 +17,7 @@ type Config = {
     };
   };
   showHeader: boolean;
+  tenantId: string | undefined;
 };
 
 const LOYALTY_PROTOCOL_CONFIG: Record<string, Config> = {

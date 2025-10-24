@@ -14,4 +14,5 @@ export const INDIAN_EXPRESS = {
         },
     },
     showHeader: false,
+    tenantId: "times",
 };
