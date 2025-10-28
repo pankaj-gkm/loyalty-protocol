@@ -15,4 +15,5 @@ export const TIME_NOW_CONFIG = {
     },
     showHeader: false,
     tenantId: "times",
+    fontLink: undefined,
 };

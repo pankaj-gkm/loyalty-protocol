@@ -90,35 +90,10 @@
   --success-color-base: 38, 216, 109; /* #26d86d */
   --failed-color-base: 255, 115, 115; /* #ff7373 */
 
-  --trim: "Trim";
-  --trim-mono: "Trim-Mono";
-  --trim-poster: "Trim-Poster";
-  --trim-poster-lean: "Trim-Poster-Lean";
-
-  --navbar-mweb-height: 0px;
-  --navbar-web-height: 0px;
-}
-
-[data-theme="indian-express"] {
-  --primary-color-base: 255, 157, 182; /* #ff9db6 */
-  --secondary-color-base: 255, 255, 255; /* #ffffff */
-  --background-color-base: 31, 51, 56; /* #1f3338 */
-  --tertiary-color-base: 220, 218, 218; /* #dcdada */
-  --text-color-base: 0, 0, 0; /* #000000 */
-  --accent-text-color-base: 68, 68, 68; /* #444444 */
-
-  --error-color-base: 255, 115, 115; /* #ff7373 */
-  --white-base: 255, 255, 255; /* #ffffff */
-  --black-base: 0, 0, 0; /* #000000 */
-  --processing-color-base: 255, 158, 44; /* #ff9e2c */
-  --partial-color-base: 255, 195, 44; /* #ffc32c */
-  --success-color-base: 38, 216, 109; /* #26d86d */
-  --failed-color-base: 255, 115, 115; /* #ff7373 */
-
-  --trim: "Trim";
-  --trim-mono: "Trim-Mono";
-  --trim-poster: "Trim-Poster";
-  --trim-poster-lean: "Trim-Poster-Lean";
+  --trim: "IBM Plex Sans";
+  --trim-mono: "IBM Plex Sans";
+  --trim-poster: "IBM Plex Sans";
+  --trim-poster-lean: "IBM Plex Sans";
 
   --navbar-mweb-height: 0px;
   --navbar-web-height: 0px;
@@ -126,7 +101,7 @@
 
 [data-theme="times-now-kstore-india"] {
   --primary-color-base: 181, 32, 37; /* #B52025 */
-  --secondary-color-base: 219, 219, 219; /* #ffffff */
+  --secondary-color-base: 34, 64, 153; /* #ffffff */
   --background-color-base: 255, 255, 255; /* #1f3338 */
   --tertiary-color-base: 220, 218, 218; /* #dcdada */
   --text-color-base: 0, 0, 0; /* #000000 */

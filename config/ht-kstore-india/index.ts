@@ -15,4 +15,6 @@ export const HT_CONFIG = {
   },
   showHeader: false,
   tenantId: undefined,
+  fontLink:
+    "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap",
 };
