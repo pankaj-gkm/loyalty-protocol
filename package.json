@@ -1,6 +1,6 @@
 {
   "name": "loyalty-protocol",
-  "version": "1.3.0",
+  "version": "1.3.14",
   "description": "",
   "main": "dist/index.js",
   "exports": {

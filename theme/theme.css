@@ -1,54 +1,5 @@
-[data-theme="light"] {
-  --primary-color-base: 140, 255, 5; /* #8cff05 */
-  --secondary-color-base: 31, 51, 56; /* #1f3338 */
-  --background-color-base: 65, 95, 102; /* #415f66 */
-  --tertiary-color-base: 134, 166, 166; /* #86a6a6 */
-  --text-color-base: 219, 237, 241; /* #dbedf1 */
-  --accent-text-color-base: 190, 220, 218; /* #bedcda */
-
-  --error-color-base: 255, 115, 115; /* #ff7373 */
-
-  --white-base: 255, 255, 255; /* #ffffff */
-  --black-base: 0, 0, 0; /* #000000 */
-  --processing-color-base: 255, 158, 44; /* #ff9e2c */
-  --partial-color-base: 255, 195, 44; /* #ffc32c */
-  --success-color-base: 38, 216, 109; /* #26d86d */
-  --failed-color-base: 255, 115, 115; /* #ff7373 */
-
-  --trim: "Trim";
-  --trim-mono: "Trim-Mono";
-  --trim-poster: "Trim-Poster";
-  --trim-poster-lean: "Trim-Poster-Lean";
-
-  --navbar-web-height: 65px;
-  --navbar-mweb-height: 98px;
-}
-
-[data-theme="dark"] {
-  --primary-color-base: 140, 255, 5; /* #8cff05 */
-  --secondary-color-base: 31, 51, 56; /* #1f3338 */
-  --background-color-base: 65, 95, 102; /* #415f66 */
-  --tertiary-color-base: 134, 166, 166; /* #86a6a6 */
-  --text-color-base: 219, 237, 241; /* #dbedf1 */
-  --accent-text-color-base: 190, 220, 218; /* #bedcda */
-
-  --error-color-base: 255, 115, 115; /* #ff7373 */
-  --white-base: 255, 255, 255; /* #ffffff */
-  --black-base: 0, 0, 0; /* #000000 */
-  --processing-color-base: 255, 158, 44; /* #ff9e2c */
-  --partial-color-base: 255, 195, 44; /* #ffc32c */
-  --success-color-base: 38, 216, 109; /* #26d86d */
-  --failed-color-base: 255, 115, 115; /* #ff7373 */
-
-  --trim: "Trim";
-  --trim-mono: "Trim-Mono";
-  --trim-poster: "Trim-Poster";
-  --trim-poster-lean: "Trim-Poster-Lean";
-
-  --navbar-web-height: 65px;
-  --navbar-mweb-height: 98px;
-}
-
+[data-theme="light"],
+[data-theme="dark"],
 [data-theme="kgen"] {
   --primary-color-base: 140, 255, 5; /* #8cff05 */
   --secondary-color-base: 31, 51, 56; /* #1f3338 */
@@ -58,6 +9,7 @@
   --accent-text-color-base: 190, 220, 218; /* #bedcda */
 
   --error-color-base: 255, 115, 115; /* #ff7373 */
+
   --white-base: 255, 255, 255; /* #ffffff */
   --black-base: 0, 0, 0; /* #000000 */
   --processing-color-base: 255, 158, 44; /* #ff9e2c */
@@ -72,6 +24,18 @@
 
   --navbar-web-height: 65px;
   --navbar-mweb-height: 98px;
+
+  /* K-Store Variables */
+  --table-background-color: var(--secondary-color);
+  --table-header-color: var(--secondary-color);
+  --table-card-seperator: var(--background-color);
+  --table-card-text-color: white;
+
+  --order-detail-order-info-bg: var(--background-color-50);
+  --order-detail-order-info-text: var(--text-color);
+  --no-enough-balance-error-background: rgba(61, 54, 54, 0.3);
+
+  --place-order-text-filter: unset;
 }
 
 [data-theme="ht-kstore-india"] {
@@ -97,11 +61,23 @@
 
   --navbar-mweb-height: 0px;
   --navbar-web-height: 0px;
+
+  /* K-Store Variables */
+  --table-background-color: var(--secondary-color);
+  --table-header-color: var(--text-color);
+  --table-card-text-color: var(--text-color);
+  --table-card-seperator: var(--text-color-10);
+
+  --order-detail-order-info-bg: var(--secondary-color);
+  --order-detail-order-info-text: var(--text-color);
+  --no-enough-balance-error-background: #ff737330;
+
+  --place-order-text-filter: invert(1);
 }
 
 [data-theme="times-now-kstore-india"] {
   --primary-color-base: 181, 32, 37; /* #B52025 */
-  --secondary-color-base: 34, 64, 153; /* #ffffff */
+  --secondary-color-base: 219, 219, 219; /* #ffffff */
   --background-color-base: 255, 255, 255; /* #1f3338 */
   --tertiary-color-base: 220, 218, 218; /* #dcdada */
   --text-color-base: 0, 0, 0; /* #000000 */
@@ -120,8 +96,24 @@
   --trim-poster: "Verdana";
   --trim-poster-lean: "Verdana";
 
-  --navbar-mweb-height: 0px;
-  --navbar-web-height: 0px;
+  --navbar-web-height: 65px;
+  --navbar-mweb-height: 98px;
+
+  /* K-Store Variables */
+  /* Order History Table - WEB */
+  --table-background-color: var(--background-color);
+  --table-header-color: var(--text-color);
+
+  /* Order History Table - MWEB */
+  --table-card-text-color: var(--text-color);
+  --table-card-seperator: var(--text-color-10);
+
+  /* ORDER DETAILS MODAL */
+  --order-detail-order-info-bg: var(--secondary-color);
+  --order-detail-order-info-text: var(--text-color);
+  --no-enough-balance-error-background: #ff737330;
+
+  --place-order-text-filter: invert(1);
 }
 
 :root {

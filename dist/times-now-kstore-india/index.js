@@ -1,19 +1,26 @@
 export const TIME_NOW_CONFIG = {
     currency: {
         "K-Cash": {
-            name: "T-Coins",
-            logo: "https://i.ibb.co/V0BmdGFB/coins.png",
+            name: "TCoins",
+            logo: "https://i.ibb.co/k25RsTDd/times-coin.png",
+            decimalPoints: 0,
         },
         "K-Points": {
             name: "T-Points",
-            logo: "https://i.ibb.co/Z1mSgmzT/points.png",
+            logo: "https://i.ibb.co/3YhSKPPg/times-point.png",
+            decimalPoints: 0,
         },
         rKGeN: {
             name: "T Coin",
-            logo: "https://s2.coinmarketcap.com/static/img/coins/128x128/32196.png",
+            logo: "https://i.ibb.co/3YhSKPPg/times-point.png",
+            decimalPoints: 2,
         },
     },
-    showHeader: false,
+    showHeader: true,
+    kStoreLogo: "https://i.ibb.co/Q7XQfk8n/image.png",
     tenantId: "times",
     fontLink: undefined,
+    assetMap: {
+        times_point: "K-Points",
+    },
 };
