@@ -1,26 +1,32 @@
 export const TIME_NOW_CONFIG = {
   currency: {
     "K-Cash": {
-      name: "TCoins",
-      logo: "https://i.ibb.co/k25RsTDd/times-coin.png",
+      name: "Times Cash",
+      logo: "https://pre-prod-admin-bucket.indi.gg/website-images/timesCash.png",
       decimalPoints: 0,
     },
     "K-Points": {
-      name: "T-Points",
-      logo: "https://i.ibb.co/3YhSKPPg/times-point.png",
+      name: "Coins",
+      logo: "https://pre-prod-admin-bucket.indi.gg/website-images/timesCoin.png",
       decimalPoints: 0,
     },
     rKGeN: {
-      name: "T Coin",
-      logo: "https://i.ibb.co/3YhSKPPg/times-point.png",
+      name: "",
+      logo: "",
       decimalPoints: 2,
     },
   },
   showHeader: true,
-  kStoreLogo: "https://i.ibb.co/Q7XQfk8n/image.png",
+  kStoreLogo:
+    "https://pre-prod-admin-bucket.indi.gg/website-images/timesKstoreLogo.png",
   tenantId: "times",
   fontLink: undefined,
   assetMap: {
     times_point: "K-Points",
+  },
+  rkade: {
+    spinWheel: {
+      hideBgIconColor: true,
+    },
   },
 };

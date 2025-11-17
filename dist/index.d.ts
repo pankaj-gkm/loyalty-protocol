@@ -13,6 +13,11 @@ type Config = {
     assetMap?: {
         times_point?: string;
     };
+    rkade?: {
+        spinWheel?: {
+            hideBgIconColor?: boolean;
+        };
+    };
 };
 declare const LOYALTY_PROTOCOL_CONFIG: Record<string, Config>;
 export default LOYALTY_PROTOCOL_CONFIG;

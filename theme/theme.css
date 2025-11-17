@@ -31,7 +31,7 @@
   --table-card-seperator: var(--background-color);
   --table-card-text-color: white;
 
-  --order-detail-order-info-bg: var(--background-color-50);
+  --order-detail-order-info-bg: var(--secondary-color-50);
   --order-detail-order-info-text: var(--text-color);
   --no-enough-balance-error-background: rgba(61, 54, 54, 0.3);
 
@@ -114,6 +114,8 @@
   --no-enough-balance-error-background: #ff737330;
 
   --place-order-text-filter: invert(1);
+
+  --spin-button-text-color: var(--background-color);
 }
 
 :root {

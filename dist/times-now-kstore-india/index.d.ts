@@ -23,4 +23,9 @@ export declare const TIME_NOW_CONFIG: {
     assetMap: {
         times_point: string;
     };
+    rkade: {
+        spinWheel: {
+            hideBgIconColor: boolean;
+        };
+    };
 };
