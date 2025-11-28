@@ -1,16 +1,11 @@
 export declare const TIME_NOW_CONFIG: {
     currency: {
-        "K-Cash": {
+        k_cash: {
             name: string;
             logo: string;
             decimalPoints: number;
         };
-        "K-Points": {
-            name: string;
-            logo: string;
-            decimalPoints: number;
-        };
-        rKGeN: {
+        times_point: {
             name: string;
             logo: string;
             decimalPoints: number;
@@ -27,5 +22,18 @@ export declare const TIME_NOW_CONFIG: {
         spinWheel: {
             hideBgIconColor: boolean;
         };
+        faqData: ({
+            question: string;
+            answer: string;
+        } | {
+            question: string;
+            answer: {
+                text: string;
+                list: string[];
+            };
+        })[];
+    };
+    loyaltyDashboard: {
+        loyaltyCurrency: "times_point";
     };
 };

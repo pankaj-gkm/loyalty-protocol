@@ -1,16 +1,6 @@
 export declare const HT_CONFIG: {
     currency: {
-        "K-Cash": {
-            name: string;
-            logo: string;
-            decimalPoints: number;
-        };
-        "K-Points": {
-            name: string;
-            logo: string;
-            decimalPoints: number;
-        };
-        rKGeN: {
+        k_cash: {
             name: string;
             logo: string;
             decimalPoints: number;

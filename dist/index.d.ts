@@ -1,11 +1,12 @@
-type Currency = {
+export type Currency = {
     name: string;
     logo: string;
     decimalPoints: number;
 };
-type CurrencyNames = "K-Cash" | "K-Points" | "rKGeN";
-type Config = {
-    currency: Record<CurrencyNames, Currency>;
+export type CurrencyNames = "k_cash";
+export type LoyaltyCurrencyNames = "times_point";
+export type Config = {
+    currency: Record<CurrencyNames, Currency> & Partial<Record<LoyaltyCurrencyNames, Currency>>;
     showHeader: boolean;
     tenantId: string | undefined;
     fontLink: string | undefined;
@@ -17,6 +18,16 @@ type Config = {
         spinWheel?: {
             hideBgIconColor?: boolean;
         };
+        faqData?: {
+            question: string;
+            answer: string | {
+                text: string;
+                list: string[];
+            };
+        }[];
+    };
+    loyaltyDashboard?: {
+        loyaltyCurrency: LoyaltyCurrencyNames | CurrencyNames;
     };
 };
 declare const LOYALTY_PROTOCOL_CONFIG: Record<string, Config>;
