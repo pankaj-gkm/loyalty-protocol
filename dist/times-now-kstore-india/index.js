@@ -83,4 +83,7 @@ export const TIME_NOW_CONFIG = {
     loyaltyDashboard: {
         loyaltyCurrency: "times_point",
     },
+    kstore: {
+        supportEmail: "timesloyalty.program@timesgroup.com",
+    },
 };

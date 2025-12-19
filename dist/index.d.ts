@@ -29,6 +29,9 @@ export type Config = {
     loyaltyDashboard?: {
         loyaltyCurrency: LoyaltyCurrencyNames | CurrencyNames;
     };
+    kstore: {
+        supportEmail?: string;
+    };
 };
 declare const LOYALTY_PROTOCOL_CONFIG: Record<string, Config>;
 export default LOYALTY_PROTOCOL_CONFIG;

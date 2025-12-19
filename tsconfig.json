@@ -12,6 +12,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["config/**/*.ts", "index.ts"],
+  "include": ["config/**/*.ts", "utils/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

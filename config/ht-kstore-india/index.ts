@@ -1,4 +1,6 @@
-export const HT_CONFIG = {
+import { Config } from "..";
+
+export const HT_CONFIG: Config = {
   currency: {
     k_cash: {
       name: "Coins",
@@ -11,4 +13,5 @@ export const HT_CONFIG = {
   tenantId: undefined,
   fontLink:
     "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+  kstore: {},
 };

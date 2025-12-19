@@ -75,6 +75,43 @@
   --place-order-text-filter: invert(1);
 }
 
+[data-theme="ht-kstore-india"][data-product="ht-news"] {
+  --primary-color-base: 255, 0, 255; /* #009db6 */
+  --secondary-color-base: 219, 219, 219; /* #ffffff */
+  --background-color-base: 255, 255, 255; /* #1f3338 */
+  --tertiary-color-base: 220, 218, 218; /* #dcdada */
+  --text-color-base: 0, 0, 0; /* #000000 */
+  --accent-text-color-base: 68, 68, 68; /* #444444 */
+
+  --error-color-base: 255, 115, 115; /* #ff7373 */
+  --white-base: 255, 255, 255; /* #ffffff */
+  --black-base: 0, 0, 0; /* #000000 */
+  --processing-color-base: 255, 158, 44; /* #ff9e2c */
+  --partial-color-base: 255, 195, 44; /* #ffc32c */
+  --success-color-base: 38, 216, 109; /* #26d86d */
+  --failed-color-base: 255, 115, 115; /* #ff7373 */
+
+  --trim: "IBM Plex Sans";
+  --trim-mono: "IBM Plex Sans";
+  --trim-poster: "IBM Plex Sans";
+  --trim-poster-lean: "IBM Plex Sans";
+
+  --navbar-mweb-height: 0px;
+  --navbar-web-height: 0px;
+
+  /* K-Store Variables */
+  --table-background-color: var(--secondary-color);
+  --table-header-color: var(--text-color);
+  --table-card-text-color: var(--text-color);
+  --table-card-seperator: var(--text-color-10);
+
+  --order-detail-order-info-bg: var(--secondary-color);
+  --order-detail-order-info-text: var(--text-color);
+  --no-enough-balance-error-background: #ff737330;
+
+  --place-order-text-filter: invert(1);
+}
+
 [data-theme="times-now-kstore-india"] {
   --primary-color-base: 181, 32, 37; /* #B52025 */
   --secondary-color-base: 219, 219, 219; /* #ffffff */
@@ -116,6 +153,10 @@
   --place-order-text-filter: invert(1);
 
   --spin-button-text-color: var(--background-color);
+
+  /* Loyalty Variables */
+  --loyalty-font-size-rem: 1px;
+  --loyalty-font-size-mobile-rem: 0.8px;
 }
 
 :root {

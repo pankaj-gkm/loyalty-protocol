@@ -10,4 +10,5 @@ export const HT_CONFIG = {
     kStoreLogo: undefined,
     tenantId: undefined,
     fontLink: "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+    kstore: {},
 };

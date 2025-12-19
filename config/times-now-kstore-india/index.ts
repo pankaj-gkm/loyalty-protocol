@@ -1,4 +1,6 @@
-export const TIME_NOW_CONFIG = {
+import { Config } from "..";
+
+export const TIME_NOW_CONFIG: Config = {
   currency: {
     k_cash: {
       name: "Times Cash",
@@ -92,5 +94,8 @@ export const TIME_NOW_CONFIG = {
   },
   loyaltyDashboard: {
     loyaltyCurrency: "times_point" as const,
+  },
+  kstore: {
+    supportEmail: "timesloyalty.program@timesgroup.com",
   },
 };

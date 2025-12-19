@@ -33,6 +33,9 @@ export type Config = {
   loyaltyDashboard?: {
     loyaltyCurrency: LoyaltyCurrencyNames | CurrencyNames;
   };
+  kstore: {
+    supportEmail?: string;
+  };
 };
 
 const LOYALTY_PROTOCOL_CONFIG: Record<string, Config> = {
