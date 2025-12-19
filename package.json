@@ -1,11 +1,11 @@
 {
   "name": "loyalty-protocol",
-  "version": "2.1.7",
+  "version": "3.0.8",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/index",
   "exports": {
-    ".": "./dist",
-    "./config": "./dist/index.js",
+    ".": "./dist/index.js",
+    "./config": "./dist/config",
     "./theme": "./dist/theme.css",
     "./theme.css": "./dist/theme.css"
   },
@@ -21,7 +21,12 @@
   "files": [
     "dist"
   ],
+  "dependencies": {
+    "crypto-js": "4.2.0"
+  },
   "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^25.0.3",
     "csso-cli": "^4.0.2",
     "tsup": "^8.5.0",
     "typescript": "^5.9.2"

@@ -38,9 +38,7 @@ export type Config = {
   };
 };
 
-const LOYALTY_PROTOCOL_CONFIG: Record<string, Config> = {
+export const LOYALTY_PROTOCOL_CONFIG: Record<string, Config> = {
   "ht-kstore-india": HT_CONFIG,
   "times-now-kstore-india": TIME_NOW_CONFIG,
 };
-
-export default LOYALTY_PROTOCOL_CONFIG;
