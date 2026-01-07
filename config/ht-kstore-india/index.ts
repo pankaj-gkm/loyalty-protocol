@@ -11,6 +11,7 @@ export const HT_CONFIG: Config = {
   showHeader: false,
   kStoreLogo: undefined,
   tenantId: undefined,
+  entryPoint: "https://www.hindustantimes.com/",
   fontLink:
     "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap",
   kstore: {},

@@ -17,6 +17,7 @@ export const TIME_NOW_CONFIG: Config = {
   kStoreLogo:
     "https://pre-prod-admin-bucket.indi.gg/website-images/timesKstoreLogo.png",
   tenantId: "times",
+  entryPoint: "https://www.timesnownews.com/",
   fontLink: undefined,
   assetMap: {
     times_point: "K-Points",

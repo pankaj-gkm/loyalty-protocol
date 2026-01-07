@@ -18,6 +18,7 @@ export type Config = {
   tenantId: string | undefined;
   fontLink: string | undefined;
   kStoreLogo: string | undefined;
+  entryPoint: string;
   assetMap?: {
     times_point?: string;
   };
