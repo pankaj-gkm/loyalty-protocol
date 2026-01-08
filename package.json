@@ -1,6 +1,6 @@
 {
   "name": "loyalty-protocol",
-  "version": "3.0.13",
+  "version": "3.0.19",
   "description": "",
   "main": "dist/index",
   "exports": {

@@ -39,7 +39,7 @@
 }
 
 [data-theme="ht-kstore-india"] {
-  --primary-color-base: 196, 19, 42; /* #009db6 */
+  --primary-color-base: 0, 157, 182; /* #009db6 */
   --secondary-color-base: 219, 219, 219; /* #ffffff */
   --background-color-base: 255, 255, 255; /* #1f3338 */
   --tertiary-color-base: 220, 218, 218; /* #dcdada */
@@ -110,6 +110,11 @@
   --no-enough-balance-error-background: #ff737330;
 
   --place-order-text-filter: invert(1);
+}
+
+[data-theme="ht-kstore-india"]:not([data-product]) {
+  --loader-color-base: 66, 19, 255;
+  --loader-track-color-base: 222, 215, 255;
 }
 
 [data-theme="times-now-kstore-india"] {
@@ -276,4 +281,9 @@
   --partial-color: rgba(var(--partial-color-base));
   --success-color: rgba(var(--success-color-base));
   --failed-color: rgba(var(--failed-color-base));
+
+  --loader-color: rgba(var(--loader-color-base, var(--primary-color-base)));
+  --loader-track-color: rgba(
+    var(--loader-track-color-base, var(--secondary-color-base))
+  );
 }
