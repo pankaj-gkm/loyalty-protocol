@@ -2,17 +2,26 @@ export const TIME_NOW_CONFIG = {
     currency: {
         k_cash: {
             name: "Times Cash",
-            logo: "https://pre-prod-admin-bucket.indi.gg/website-images/timesCash.png",
+            logo: {
+                stage: "https://pre-prod-admin-bucket.kgen.io/website-images/timesCash.png",
+                prod: "https://prod-image-bucket.kgen.io/website-images/loyalty-protocol/timesCash.png",
+            },
             decimalPoints: 0,
         },
         times_point: {
             name: "Coins",
-            logo: "https://pre-prod-admin-bucket.indi.gg/website-images/timesCoin.png",
+            logo: {
+                stage: "https://pre-prod-admin-bucket.kgen.io/website-images/timesCoin.png",
+                prod: "https://prod-image-bucket.kgen.io/website-images/loyalty-protocol/timesCoin.png",
+            },
             decimalPoints: 0,
         },
     },
     showHeader: true,
-    kStoreLogo: "https://pre-prod-admin-bucket.indi.gg/website-images/timesKstoreLogo.png",
+    kStoreLogo: {
+        stage: "https://pre-prod-admin-bucket.kgen.io/website-images/timesKstoreLogo.png",
+        prod: "https://prod-image-bucket.kgen.io/website-images/loyalty-protocol/timesKstoreLogo.png",
+    },
     tenantId: "times",
     entryPoint: "https://www.timesnownews.com/",
     fontLink: undefined,

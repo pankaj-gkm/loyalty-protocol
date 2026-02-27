@@ -2,7 +2,10 @@ export const HT_CONFIG = {
     currency: {
         k_cash: {
             name: "Coins",
-            logo: "https://images.hindustantimes.com/sso/prod/loyalty-reward-sdk/images/goCoinHT.svg",
+            logo: {
+                stage: "https://images.hindustantimes.com/sso/prod/loyalty-reward-sdk/images/goCoinHT.svg",
+                prod: "https://images.hindustantimes.com/sso/prod/loyalty-reward-sdk/images/goCoinHT.svg",
+            },
             decimalPoints: 0,
         },
     },

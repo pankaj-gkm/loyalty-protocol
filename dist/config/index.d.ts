@@ -1,6 +1,7 @@
+export type ImageUrl = Record<"prod" | "stage", string>;
 export type Currency = {
     name: string;
-    logo: string;
+    logo: ImageUrl;
     decimalPoints: number;
 };
 export type CurrencyNames = "k_cash";
@@ -10,7 +11,7 @@ export type Config = {
     showHeader: boolean;
     tenantId: string | undefined;
     fontLink: string | undefined;
-    kStoreLogo: string | undefined;
+    kStoreLogo: ImageUrl | undefined;
     entryPoint: string;
     assetMap?: {
         times_point?: string;
