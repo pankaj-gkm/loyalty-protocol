@@ -17,11 +17,6 @@
   --success-color-base: 38, 216, 109; /* #26d86d */
   --failed-color-base: 255, 115, 115; /* #ff7373 */
 
-  --trim: "Trim";
-  --trim-mono: "Trim-Mono";
-  --trim-poster: "Trim-Poster";
-  --trim-poster-lean: "Trim-Poster-Lean";
-
   --navbar-web-height: 65px;
   --navbar-mweb-height: 98px;
 
